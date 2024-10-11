@@ -1,0 +1,329 @@
+{
+  "intents": [
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't understand your question.",
+        "Sorry, I don't have information about that.",
+        "Can you please provide more details?",
+        "I'm not sure about that."
+      ],
+      "responses": [
+        "I'm sorry, but I don't have the information you're looking for. Can I help with something else?",
+        "I don't have an answer to that. Please let me know if there's something else I can assist you with.",
+        "I'm not sure about that topic. If you have any other questions, feel free to ask."
+      ]},
+      {
+        "tag":"doing",
+        "patterns":[
+          "What are you doing?",
+          "What is your purpose?",
+          "What have been doing?"
+        ],
+        "responses":[
+          "I'm here to assist you with any questions or tasks you may have.",
+          "My purpose is to provide information and help with any questions you may have."
+        ]
+      },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi!",
+        "Good Morning!",
+        "Good Evening",
+        "Good afternoon",
+        "Hey",
+        "Whats up",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello. Welcome to Aradhya bank",
+        "Hi ! We are here to provide our service",
+        "Welcome",
+        "Hi there"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Hi.What is your name?",
+        "May I know your name?",
+        "Your name please."
+      ],
+      "responses": [
+        "My name is Sara.",
+        "You can call me Sara."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell about the bank.",
+        "Can I know about the bank",
+        "When this bank has been started”, “Tell about your company”,”can i trust this bank”,”what is the starting year of this bank"
+      ],
+      "responses": [
+        "Since 1990, the Sara bank has extended its service",
+        "The Sara bank assists customers through the various products and services it offers",
+        "My name is Sara."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "what are the services Aradhya bank offers ?",
+        "Name the services provided in this bank",
+        "What are the benefits rendered by Aradhya Bank?",
+        "Describe the service provided by this bank.",
+        "what are the available services?"
+      ],
+      "responses": [
+        "Aradhya bank provides services such as account opening, digital products, and loans.",
+        " Aradhya bank offers support such as account opening, digital services,loans and international banking,insurance services and mobile banking."
+      ]
+    },
+    {
+      "tag": "accountopening",
+      "patterns": [
+        "Can you tell the types of account available in this bank",
+        "What are the types of accounts offered by the bank",
+        "What types of accounts are offered by this bank, please?",
+        "can i open a account?"
+      ],
+      "responses": [
+        "You can open an account in our bank which could be either a savings or a current account.",
+        "You may open an account with our bank, which may be a current or a savings account."
+      ]
+    },
+    {
+      "tag": "savecurrdiff",
+      "patterns": [
+        "Can you tell the difference between the savings and the current account ?",
+        "How to choose between a savings and a current account?",
+        "which account should I prefer ?",
+        "which account is beneficial?",
+        "what is the difference between these accounts?"
+      ],
+      "responses": [
+        "Current account is for entrepreneurs and business owners whereas savings account is for persons who get a monthly salary. ",
+        "If you are an entrepreneur and do frequent transactions, you can go with a current account.",
+        "If you get a monthly salary and perform less transactions, you can choose a savings account."
+      ]
+    },
+    {
+      "tag": "accountopenproc",
+      "patterns": [
+        "What documents are required to open an account with Aradhya Bank?",
+        "How to open a bank account at ABC?",
+        "Can you elaborate the procedure for opening an bank account?",
+        "what are the required documents?"
+      ],
+      "responses": [
+        "Select which type of bank account you are going to open. Submit proof of identity and address",
+        "the required documents for account opening are passport photo,aadhar card,pan card,guardian aadhar card",
+        "the procedure for opening a account is  1.select the type of account 2.submit required documents(proof of identity,proof of address) 3.Visit the bank 4.complete an application form 5.submit the documents 6.initial deposit 7.receieve account details 8.set up online banking(if applicable) 9.activate debit card(if applicable) "
+      ]
+    },
+    {
+      "tag": "loans",
+      "patterns": [
+        "What are the different loan categories available in this bank?",
+        "Can I get loan for educational purposes?",
+        "Can I get loan for agricultural purposes",
+        "Can I get loan for business oriented purposes",
+        "Can you list the categories of the loan provided by this bank?",
+        "list the available loans"
+      ],
+      "responses": [
+        "Our bank facilitates its customers by providing loans in various domains such as agriculture, education and corporate.",
+        "Yes. We do provide in various domains like agriculture, education and for business-oriented purposes."
+      ]
+    },
+    {
+      "tag": "agriloan",
+      "patterns": [
+        "Who are able to apply for agriculture loan?",
+        "What are the restrictions in applying for an agricultural loan?",
+        "How to get agricultural loan”,”Can i get agriculture loan",
+        "Is there any restriction for applying agriculture loan?"
+      ],
+      "responses": [
+        "The person must possess their own land and should know about the agricultural practices"
+      ]
+    },
+    {
+      "tag": "eduloan",
+      "patterns": [
+        "Is there any restriction on applying for educational loan?",
+        "Should I submit any documents for an educational loan?",
+        "Are mark sheets needed for applying loan for educational purpose?",
+        "Am i eligible for educational loan ?"
+      ],
+      "responses": [
+        "Yes.You need to submit the admission letter of an institute and fee schedule and also submit the marksheets.",
+        "You must submit an institute's admission letter and fee schedule, as well as your marksheets."
+      ]
+    },
+    {
+      "tag" : "businessloan",
+      "patterns":[
+        "Who are eligible for business loan?",
+        "Am I eligible for business loan",
+        "Any restrictions for business loan?",
+        "How to get business loan?",
+        "What is the procedure to get business loan?"
+        ],
+      "responses":[
+        "You should own an organisation/company under Your name. You should submit the proof"
+        ]
+    },
+    {
+      "tag":"digitalproducts",
+      "patterns":[
+        "Can you tell about the digital products this bank provide?",
+        "Does Aradhya bank offer digital products ?",
+        "What are the digital products?"
+        ],
+      "responses":[
+      "Yes. Aradhya bank provides many digitalproducts like mobile banking, Online banking, UPI facilities, etc."
+      ]
+},
+{
+  "tag": "contact",
+  "patterns": [
+    "How can I contact customer service?",
+    "What is the contact number for ABC Bank?",
+    "Can I get the email address for support?",
+    "Where is the bank located?"
+  ],
+  "responses": [
+    "You can contact customer service at 123-456-7890 or email us at support@abcbank.com.",
+    "Our bank is located at 123 Bank Street, City, Country. For support, call 123-456-7890 or email support@abcbank.com."
+  ]
+},
+{
+  "tag": "branchlocations",
+  "patterns": [
+    "Where are the branches of Aradhya Bank located?",
+    "Can you provide the addresses of Aradhya Bank branches?",
+    "Find a branch near me."
+  ],
+  "responses": [
+    "You can find branch locations on our website under the 'Branches' section.",
+    "Visit our website to locate branches near you or call 123-456-7890 for assistance."
+  ]
+},
+{
+  "tag": "accountbalance",
+  "patterns": [
+    "How can I check my account balance?",
+    "Can I know my account balance?",
+    "What is the procedure to check my balance?"
+  ],
+  "responses": [
+    "You can check your account balance through our mobile banking app or by visiting a branch.",
+    "To check your balance, log in to online banking or use our mobile app."
+  ]
+},
+{
+  "tag": "transactionhistory",
+  "patterns": [
+    "How do I view my transaction history?",
+    "Can I see my recent transactions?",
+    "Where can I find my transaction details?"
+  ],
+  "responses": [
+    "You can view your transaction history through our mobile banking app or online banking.",
+    "For transaction details, log in to your account via our app or website."
+  ]
+},
+{
+  "tag": "accountclosure",
+  "patterns": [
+    "How do I close my account?",
+    "What is the procedure for closing an account?",
+    "Can you guide me through account closure?"
+  ],
+  "responses": [
+    "To close your account, visit the nearest branch or contact customer service at 123-456-7890.",
+    "You can initiate account closure by visiting a branch or calling our support line for further instructions."
+  ]
+},
+{
+  "tag": "accountsuspended",
+  "patterns": [
+    "My account is suspended. What should I do?",
+    "Why is my account suspended?",
+    "How can I reactivate a suspended account?"
+  ],
+  "responses": [
+    "Please contact customer service immediately to resolve any issues related to your suspended account.",
+    "For account suspension issues, call our support team at 123-456-7890 for assistance."
+  ]
+},
+{
+  "tag": "interestrates",
+  "patterns": [
+    "What are the interest rates for savings accounts?",
+    "Can you tell me the current interest rates?",
+    "What interest rates are offered for loans?"
+  ],
+  "responses": [
+    "Interest rates for savings accounts and loans can be found on our website or by contacting customer service.",
+    "Please visit our website for the latest interest rates or call 123-456-7890 for details."
+  ]
+},
+{
+  "tag": "security",
+  "patterns": [
+    "What security measures does the bank have?",
+    "How secure is my online banking?",
+    "Can you tell me about your security protocols?"
+  ],
+  "responses": [
+    "We employ various security measures, including encryption and multi-factor authentication, to protect your information.",
+    "Our online banking is secured with advanced encryption and regular security audits."
+  ]
+},
+{
+  "tag": "onlinebankingissues",
+  "patterns": [
+    "I am having trouble with online banking.",
+    "Can you help me with online banking issues?",
+    "What should I do if I can't log in to my account?"
+  ],
+  "responses": [
+    "For online banking issues, please contact our technical support at 123-456-7890 or visit our website for troubleshooting tips.",
+    "If you're experiencing login issues, reset your password or reach out to customer support for help."
+  ]
+},
+{
+  "tag": "atmissues",
+  "patterns": [
+    "The ATM swallowed my card.",
+    "I have a problem with an ATM transaction.",
+    "What should I do if there's an issue with the ATM?"
+  ],
+  "responses": [
+    "If the ATM swallowed your card, contact customer service immediately at 123-456-7890.",
+    "For any ATM issues, please report the problem to our support team or visit a branch."
+  ]
+},
+    {
+      "tag":"Thankyou",
+      "patterns":[
+        "Thank you for your service.",
+        "Bye Sara",
+        "Bye",
+        "Thank You",
+        "Thank you so much Sara."
+        ],
+      "responses":[
+        "Welcome. It is my pleasure.",
+        "Bye",
+        "Welcome."
+        ]
+    }
+  ]
+}
